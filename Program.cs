@@ -34,6 +34,18 @@ namespace pa_inheritance_overriding
             // PrintAnimal function
             animal.printAnimal();
             cat.printAnimal();
+
+            // Update the properties of each instance to reflect values that
+            // are different from their original values
+            animal.Name = "Flipper";
+            cat.Name = "Garfield";
+            cat.Legs = 4;
+            cat.Sound = "I'm HUNGRY";
+
+            // Print each object's properties to the console using the
+            // PrintAnimal function
+            animal.printAnimal();
+            cat.printAnimal();
         }
     }
 }
