@@ -38,6 +38,8 @@ namespace pa_inheritance_overriding
             // Update the properties of each instance to reflect values that
             // are different from their original values
             animal.Name = "Flipper";
+            animal.Legs = 0;
+
             cat.Name = "Garfield";
             cat.Legs = 4;
             cat.Sound = "I'm HUNGRY";

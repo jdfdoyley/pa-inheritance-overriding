@@ -32,8 +32,8 @@ namespace pa_inheritance_overriding
         public override void printAnimal()
         {
             Console.WriteLine(
-                $"The Cat's name is {base.Name}, and it has {base.Legs} and " +
-                $"is making a meow sound."
+                $"The Cat's name is {base.Name}, and it has {base.Legs} legs " +
+                $"and is making a {Sound} sound."
             );
         }
     }
