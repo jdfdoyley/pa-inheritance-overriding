@@ -17,7 +17,7 @@ namespace pa_inheritance_overriding
         {
             base.Name = "";
             base.Legs = 0;
-            Sound = "";
+            Sound = "meow";
         }
 
         // Overloaded Constructor

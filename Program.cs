@@ -13,12 +13,27 @@
 *   Print each object's properties to the console using the PrintAnimal function
 \******************************************************************************/
 
-public class MainApp
+namespace pa_inheritance_overriding
 {
-    static void Main(string[] args)
+    public class MainApp
     {
-        Console.WriteLine(
-            "Jason D'Oyley - Week 5 - Inheritance & Overriding\n"
-        );
+        static void Main(string[] args)
+        {
+            Console.WriteLine(
+                "Jason D'Oyley - Week 5 - Inheritance & Overriding\n"
+            );
+
+            // Creates an instance of each class using parameters of your choosing
+            Animal animal = new Animal("Roo", 2);
+            Cat cat = new Cat();
+
+            cat.Name = "Fluffy";
+            cat.Legs = 4;
+
+            // Print each object's properties to the console using the
+            // PrintAnimal function
+            animal.printAnimal();
+            cat.printAnimal();
+        }
     }
 }
