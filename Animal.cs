@@ -9,6 +9,29 @@ namespace pa_inheritance_overriding
 {
     public class Animal
     {
+        // Class Attributes
+        public string? Name { get; set; }
+        public int Legs { get; set; }
 
+        // Default Constructor
+        public Animal()
+        {
+            Name = "";
+            Legs = 0;
+        }
+
+        // Overloading Constructor
+        public Animal(string name, int legs)
+        {
+            Name = name;
+            Legs = legs;
+        }
+
+        // Class Methods
+        public void printAnimal()
+        {
+            // TODO: Display output for the animal
+            Console.WriteLine($"{Name} has {Legs} legs.");
+        }
     }
 }
