@@ -32,8 +32,8 @@ namespace pa_inheritance_overriding
 
             // Print each object's properties to the console using the
             // PrintAnimal function
-            animal.printAnimal();
-            cat.printAnimal();
+            animal.PrintAnimal();
+            cat.PrintAnimal();
 
             // Update the properties of each instance to reflect values that
             // are different from their original values
@@ -46,8 +46,8 @@ namespace pa_inheritance_overriding
 
             // Print each object's properties to the console using the
             // PrintAnimal function
-            animal.printAnimal();
-            cat.printAnimal();
+            animal.PrintAnimal();
+            cat.PrintAnimal();
         }
     }
 }

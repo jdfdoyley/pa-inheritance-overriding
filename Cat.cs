@@ -29,7 +29,7 @@ namespace pa_inheritance_overriding
         }
 
         // Class Methods
-        public override void printAnimal()
+        public override void PrintAnimal()
         {
             Console.WriteLine(
                 $"The Cat's name is {base.Name}, and it has {base.Legs} legs " +

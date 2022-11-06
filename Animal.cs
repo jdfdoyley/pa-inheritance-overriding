@@ -28,7 +28,7 @@ namespace pa_inheritance_overriding
         }
 
         // Class Methods
-        public virtual void printAnimal()
+        public virtual void PrintAnimal()
         {
             // TODO: Display output for the animal
             Console.WriteLine(
